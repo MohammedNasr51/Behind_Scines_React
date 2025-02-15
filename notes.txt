@@ -20,3 +20,5 @@ performance:
         and left some state and this will solve the proplem initially (be clever).        
 
 
+2 - useMemo solution (for normal functions not components):
+    - its a hook that used the same as memo to prevent not wanted reexecution of a complex functions.     
