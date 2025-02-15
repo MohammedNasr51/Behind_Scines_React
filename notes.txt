@@ -28,3 +28,16 @@ Reat virtual dom:
     react crates a vdom snapshot and when you change a state that causes change it creates
     a new snapshot vdom and compare it to the old one and only apply the changes to the real dom
     not the whole component that its state changed but only the changed part of it.
+
+
+the Importance of key for components and states:
+    you should know that every component has its state that not shared with any athor 
+    component and react manage those states to the component according to its position 
+    in the tree and its scooped fot its own component.
+
+    - so key is important because if the components are dynamicly rendered and its keys 
+    are for example indesies so if thier is a state that happens to a certain component 
+    that has an index and when another component is created above it it takes its index 
+    and the old one takes new one so we should chose a key that uniqly linked to the component.
+
+
