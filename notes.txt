@@ -41,3 +41,5 @@ the Importance of key for components and states:
     and the old one takes new one so we should chose a key that uniqly linked to the component.
 
 
+Million.js:
+    its a backage that responsible for making react faster.
