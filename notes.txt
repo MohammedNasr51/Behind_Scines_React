@@ -6,13 +6,17 @@ performance:
     if you have a components in the app component that not necesserly should reexecutes
     if the app rerendered and it is in the high level of the tree so =>
 
-    - memo solution :
+1 - memo solution :
         you can rapp the component in the memo that you will import from react and store 
         the value in a const and export default it 
     - what memo does ?
         it checks the props that comming when the parent is rerendering if it changed it 
         makes the component rerendered and if not it prevents the unneccessary rerendering.
 
-    - when you should use it     
+    - when you should use it ?
+        the answer is in the line 6.
+
+    - you should be aware of the ability of make a seperate component that causes the change
+        and left some state and this will solve the proplem initially (be clever).        
 
 
